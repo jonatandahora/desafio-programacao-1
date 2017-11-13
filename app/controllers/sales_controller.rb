@@ -24,7 +24,7 @@ class SalesController < ApplicationController
                   merchant_address: line[4], merchant_name: line[5],
                   sale_total: price * count)
     end
-    redirect_to :index
+    redirect_to :sales
   end
 
   private
